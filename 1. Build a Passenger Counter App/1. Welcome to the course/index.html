@@ -1,9 +1,24 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>index.html</h1>
+
+        <section>
+            <div class="app">
+                <h1 class="Title">People Entered</h1>
+                <p class="count" id="count"></p>
+                
+                <button id="increment-btn" onclick="incrementCount()" >INCREMENT</button>
+
+                <button id="save-btn" onclick="save()">Save</button>
+                
+            </div>
+        </section>
+        
+        
         <script src="index.js"></script>
+        <!--to link to js file-->
     </body>
 </html>

@@ -1,4 +1,36 @@
-html, body {
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+section{
+    max-width: 100%;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+h1{
+    padding-top: 2em;
     margin: 0;
-    padding: 0;
+}
+.count{
+    font-size: 2rem;
+    margin: 0.5em;
+
+}
+button{
+    background-color: aqua;
+    padding: 1em 3em;
+    max-width: min-content;
+    margin: 0.5em;
 }
