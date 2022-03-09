@@ -12,3 +12,23 @@ document.getElementById("num2-el").textContent = num2
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
 
+function add(){
+    let result = num1 + num2;
+    document.getElementById("sum-el").textContent = 'Sum: ' + result;
+    
+}
+
+function subtract(){
+    let result = num1 - num2;
+    document.getElementById("sum-el").textContent = 'Sum: ' + result;
+}
+
+function divide(){
+    let result = num1 / num2;
+    document.getElementById("sum-el").textContent = 'Sum: ' + result;
+}
+
+function multiply(){
+    let result = num1 * num2;
+    document.getElementById("sum-el").textContent = 'Sum: ' + result;
+}

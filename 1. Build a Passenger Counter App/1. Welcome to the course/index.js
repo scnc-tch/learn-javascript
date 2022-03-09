@@ -1,15 +1,17 @@
-// document.getElementById('').innerText = ''
-
 let count = 0;
 let elementCount = document.getElementById('count');
 
 function incrementCount(){
-    count = count + 1;
-    elementCount.innerText = count
+    count += 1;
+    elementCount.textContent = count;
 }
 
-function save() {
-    console.log(count);
-}
+function save(){ 
+    let foo = count + ' - ';
+    let oof = document.getElementById("save-el").textContent += foo;
+    count = 0;
+    elementCount.textContent = count;
+    
+} 
 
-// 46:12 / 7:44:19
+//  / 7:44:19
