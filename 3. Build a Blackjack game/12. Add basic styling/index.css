@@ -1,7 +1,14 @@
 /* Complete the CSS styling according to the provided design */
 
 body {
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size:cover;
+    background-repeat: repeat-y;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 3em;
 }
 
 h1 {

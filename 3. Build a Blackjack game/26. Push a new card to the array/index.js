@@ -34,4 +34,5 @@ function newCard() {
     sum += card
     // Push the card to the cards array
     renderGame()
+    cards.push(card)
 }
