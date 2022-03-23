@@ -9,3 +9,10 @@ The 5 largest countries in the world:
 - Indinesia
 - Pakistan
 */
+let subHead = "The 5 largest countries in the world:";
+console.log(subHead)
+for ( c = 0; c < largeCountries.length; c++){
+    let consoleMess = "- " + largeCountries[c];
+        console.log(consoleMess)
+}
+
