@@ -9,5 +9,12 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+    for (i = 0; i < arr.length; i++){
+        let words = `${desc} ${arr[i]}`
+            console.log(words)
+    }
 }
+
+let sentence = "The 3 largest countries are"
+let countries = ["China", "India", "USA"]
+generateSentence(sentence,countries)
